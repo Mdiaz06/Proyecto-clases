@@ -1,9 +1,9 @@
 public class EstudianteAsesoria{
-    private int idEstudiante;
+    private String idEstudiante;
     private int codAsesoria;
     
   
-    public Asesoria(int idEstudiante, int codAsesoria){
+    public Asesoria(String idEstudiante, int codAsesoria){
       this.horario = horario;
       this.salón = salón;
     }
