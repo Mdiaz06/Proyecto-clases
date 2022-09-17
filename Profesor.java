@@ -1,13 +1,13 @@
 public class Profesor{
     private String nombre;
     private String apellido;
-    private int idProfesor;
+    private String idProfesor;
   
-    public Profesor(String nombre, String apellido,  int codAsesoria){
-      this.horario = horario;
-      this.salón = salon;
-      this.profesor = profesor;
-      this.materia = materia;
+    public Profesor(String nombre, String apellido,  String idProfesor){
+      this.nombre = nombre;
+      this.apellido = apellido;
+      this.idProfesor = idProfesor;
+      
     }
     
   }
